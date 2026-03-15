@@ -1,0 +1,36 @@
+/* ============================================================
+   extra.css — Custom styles for The AI & MLOps Engineer Roadmap
+   ============================================================ */
+
+/* Slightly wider content area */
+.md-grid {
+  max-width: 1400px;
+}
+
+/* Phase overview cards (used in phase index pages) */
+.phase-card {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  background: var(--md-code-bg-color);
+}
+
+/* Module progress tag */
+.progress-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: var(--md-accent-fg-color);
+  color: white;
+}
+
+/* Inline keyboard key styling enhancement */
+kbd {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.85em;
+}
