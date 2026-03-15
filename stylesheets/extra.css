@@ -1,0 +1,141 @@
+/* =============================================================
+   extra.css — Full layout and style improvements
+   ============================================================= */
+
+/* ── Sidebar and content spacing ───────────────────────────── */
+.md-sidebar--primary {
+  width: 18rem; /* enough space for module/topic names */
+  position: sticky;
+  top: 1rem;
+  height: calc(100vh - 2rem);
+}
+
+.md-content {
+  margin-left: 18rem; /* aligns content to right of sidebar */
+  padding: 2rem 1.5rem; /* breathing space */
+  border-left: 1px solid var(--md-default-fg-color--lighter); /* subtle divider */
+}
+
+/* Content max width */
+.md-content__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Sidebar section headers */
+.md-nav__title {
+  font-weight: 600;
+}
+
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color) !important;
+  padding-top: 0.6rem;
+  padding-bottom: 0.3rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin-top: 0.4rem;
+}
+
+.md-nav--primary .md-nav__item--section:first-child > .md-nav__link {
+  border-top: none;
+  margin-top: 0;
+}
+
+/* Module links and topics indentation */
+.md-nav--primary .md-nav__item--section .md-nav__link {
+  font-size: 0.75rem;
+  padding-left: 0.8rem;
+}
+
+.md-nav--primary .md-nav__item--section ul.md-nav__list {
+  padding-left: 1rem;
+}
+
+.md-nav__link--active {
+  font-weight: 600 !important;
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* Admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  font-size: 0.85rem;
+  padding: 0.6rem 1rem;
+}
+
+/* Code blocks */
+.md-typeset pre > code {
+  padding: 1rem 1.2rem;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  border-radius: 6px;
+  background-color: var(--md-code-bg-color);
+  overflow-x: auto;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  font-size: 0.8rem;
+  border-radius: 6px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.5rem 1rem;
+}
+
+/* Hero section */
+.md-typeset h1:first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+/* Phase badges */
+.phase-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 6px;
+}
+
+/* Keyboard keys */
+kbd {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.8em;
+  font-family: var(--md-code-font);
+}
+
+/* Footer navigation */
+.md-footer-nav__link {
+  padding: 1rem 1.5rem;
+}
+
+/* Mermaid diagrams */
+.mermaid {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
