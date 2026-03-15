@@ -26,29 +26,22 @@ theme:
         name: Switch to light mode
 
   features:
-    # Navigation
     - navigation.sections
     - navigation.expand
     - navigation.indexes
     - navigation.path
     - navigation.top
     - navigation.footer
-
-    # Search
     - search.highlight
     - search.suggest
     - search.share
-
-    # Content enhancements
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
     - content.tooltips
+    - toc.follow
     - content.action.edit
     - content.action.view
-
-    # Table of contents
-    - toc.follow
 
   font:
     text: Inter
@@ -66,7 +59,6 @@ repo_url: https://github.com/aabdelmotalib/ai-mlops-roadmap
 repo_name: ai-mlops-roadmap
 edit_uri: edit/main/docs/
 
-# Plugins
 plugins:
   - search:
       lang: en
@@ -75,9 +67,7 @@ plugins:
   - glightbox
   - git-revision-date-localized:
       type: date
-      fallback_to_build_date: true
 
-# Markdown Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -112,7 +102,6 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-# Extra resources
 extra:
   social:
     - icon: fontawesome/brands/github
