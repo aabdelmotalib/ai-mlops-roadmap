@@ -1,19 +1,24 @@
 /* =============================================================
    extra.css — The AI & MLOps Engineer Roadmap
-   Improves sidebar design, spacing, and readability
+   Polished for readability, wider content, and professional look
    ============================================================= */
 
-/* ── Wider content area ────────────────────────────────────────────────────── */
+/* ── Wider content area ─────────────────────────────────────── */
 .md-grid {
   max-width: 1440px;
 }
 
-/* ── Sidebar: make phase section headers stand out ─────────────────────────── */
+/* Content area max width for reading comfort */
+.md-content__inner {
+  max-width: 900px;   /* increased from 860px */
+  margin: 0 auto;
+}
+
+/* ── Sidebar: make phase section headers stand out ──────────── */
 .md-nav__title {
   font-weight: 600;
 }
 
-/* Phase section labels in the sidebar — bigger and bolder */
 .md-nav--primary .md-nav__item--section > .md-nav__link {
   font-size: 0.78rem;
   font-weight: 700;
@@ -44,10 +49,10 @@
   color: var(--md-accent-fg-color) !important;
 }
 
-/* ── Sidebar width — slightly wider for long module names ──────────────────── */
+/* ── Sidebar width ─────────────────────────────────────────── */
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary {
-    width: 16rem;          /* default is 12.1rem — more room for module names */
+    width: 16rem;      /* wider for long module names */
   }
 
   .md-content {
@@ -55,31 +60,31 @@
   }
 }
 
-/* ── Content area: better typography ──────────────────────────────────────── */
-.md-content__inner {
-  max-width: 860px;        /* comfortable reading width */
-  margin: 0 auto;
-}
-
-/* ── Admonition improvements ───────────────────────────────────────────────── */
+/* ── Admonitions and collapsibles ───────────────────────────── */
 .md-typeset .admonition,
 .md-typeset details {
   border-radius: 6px;
   font-size: 0.85rem;
+  padding: 0.6rem 1rem;
 }
 
-/* ── Code blocks: slightly more padding ────────────────────────────────────── */
+/* ── Code blocks ───────────────────────────────────────────── */
 .md-typeset pre > code {
   padding: 1rem 1.2rem;
   font-size: 0.82rem;
   line-height: 1.7;
+  border-radius: 6px;
+  background-color: var(--md-code-bg-color);
+  overflow-x: auto;
 }
 
-/* ── Tables: cleaner look ───────────────────────────────────────────────────── */
+/* ── Tables ───────────────────────────────────────────────── */
 .md-typeset table:not([class]) {
   font-size: 0.8rem;
   border-radius: 6px;
   overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 .md-typeset table:not([class]) th {
@@ -93,14 +98,14 @@
   padding: 0.5rem 1rem;
 }
 
-/* ── Homepage: hero section feel ───────────────────────────────────────────── */
+/* ── Homepage / hero section ───────────────────────────────── */
 .md-typeset h1:first-child {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.3rem;
 }
 
-/* ── Progress tag pills ─────────────────────────────────────────────────────── */
+/* ── Phase badges / tag pills ──────────────────────────────── */
 .phase-badge {
   display: inline-block;
   font-size: 0.7rem;
@@ -114,7 +119,7 @@
   margin-right: 6px;
 }
 
-/* ── Keyboard key styling ───────────────────────────────────────────────────── */
+/* ── Keyboard key styling ──────────────────────────────────── */
 kbd {
   background: var(--md-code-bg-color);
   border: 1px solid var(--md-default-fg-color--lighter);
@@ -124,7 +129,14 @@ kbd {
   font-family: var(--md-code-font);
 }
 
-/* ── Footer navigation ──────────────────────────────────────────────────────── */
+/* ── Footer navigation ─────────────────────────────────────── */
 .md-footer-nav__link {
   padding: 1rem 1.5rem;
+}
+
+/* ── Optional: Mermaid diagrams clean styling ─────────────── */
+.mermaid {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
 }

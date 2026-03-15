@@ -26,31 +26,29 @@ theme:
         name: Switch to light mode
 
   features:
-    # ── LEFT SIDEBAR navigation (NO tabs) ──────────────────────────────────
-    - navigation.sections # group phases as collapsible sections
-    - navigation.expand # expand sections by default
-    - navigation.indexes # allow phase index pages
-    - navigation.path # breadcrumbs at top of page
-    - navigation.top # back-to-top button
-    - navigation.footer # previous / next links at bottom
+    # Navigation
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
 
-    # ── Search ─────────────────────────────────────────────────────────────
+    # Search
     - search.highlight
     - search.suggest
     - search.share
 
-    # ── Content ────────────────────────────────────────────────────────────
+    # Content enhancements
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
     - content.tooltips
+    - content.action.edit
+    - content.action.view
 
-    # ── Table of contents ──────────────────────────────────────────────────
+    # Table of contents
     - toc.follow
-    # NOTE: toc.integrate is intentionally removed
-    # With toc.integrate the TOC merges into the sidebar which makes it
-    # crowded when sections are expanded. Keeping TOC on the right side
-    # gives a clean 3-column layout: sidebar | content | TOC
 
   font:
     text: Inter
@@ -58,22 +56,28 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
-    # Custom icons per section shown in the sidebar
     admonition:
       note: octicons/tag-16
       tip: octicons/squirrel-16
       warning: octicons/alert-16
       danger: octicons/zap-16
 
-# ─── Plugins ────────────────────────────────────────────────────────────────
+repo_url: https://github.com/aabdelmotalib/ai-mlops-roadmap
+repo_name: ai-mlops-roadmap
+edit_uri: edit/main/docs/
+
+# Plugins
 plugins:
   - search:
       lang: en
       separator: '[\s\-\.]+'
   - tags: {}
   - glightbox
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
 
-# ─── Markdown Extensions ─────────────────────────────────────────────────────
+# Markdown Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -108,7 +112,7 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-# ─── Extra ──────────────────────────────────────────────────────────────────
+# Extra resources
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -121,64 +125,63 @@ extra_javascript:
   - javascripts/extra.js
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
-# ─── Navigation ──────────────────────────────────────────────────────────────
-# NO navigation.tabs → everything lives in the LEFT sidebar
+# Navigation
 nav:
   - Home: index.md
   - Tags: tags.md
 
   - "⚙️ Phase 0 — Baseline Setup":
       - Overview: phase_0/index.md
-      - "Module 1 · Python Essentials": phase_0/module_1/module_1.md
-      - "Module 2 · Git & Version Control": phase_0/module_2/module_2.md
-      - "Module 3 · Docker Basics": phase_0/module_3/module_3.md
-      - "Module 4 · Linux CLI": phase_0/module_4/module_4.md
-      - "Module 5 · PostgreSQL Basics": phase_0/module_5/module_5.md
+      - "Module 1 · Python Essentials": phase_0/module_1/index.md
+      - "Module 2 · Git & Version Control": phase_0/module_2/index.md
+      - "Module 3 · Docker Basics": phase_0/module_3/index.md
+      - "Module 4 · Linux CLI": phase_0/module_4/index.md
+      - "Module 5 · PostgreSQL Basics": phase_0/module_5/index.md
 
   - "📥 Phase 1 — Data Collection & Storage":
       - Overview: phase_1/index.md
-      - "Module 1 · REST APIs in Python": phase_1/module_1/module_1.md
-      - "Module 2 · Web Scraping": phase_1/module_2/module_2.md
-      - "Module 3 · Database Schema Design": phase_1/module_3/module_3.md
-      - "Module 4 · Data Cleaning & Normalization": phase_1/module_4/module_4.md
-      - "Module 5 · CSV & JSON Files": phase_1/module_5/module_5.md
+      - "Module 1 · REST APIs in Python": phase_1/module_1/index.md
+      - "Module 2 · Web Scraping": phase_1/module_2/index.md
+      - "Module 3 · Database Schema Design": phase_1/module_3/index.md
+      - "Module 4 · Data Cleaning & Normalization": phase_1/module_4/index.md
+      - "Module 5 · CSV & JSON Files": phase_1/module_5/index.md
 
   - "⚙️ Phase 2 — Data Pipelines & Automation":
       - Overview: phase_2/index.md
-      - "Module 1 · Apache Airflow": phase_2/module_1/module_1.md
-      - "Module 2 · dbt Transformations": phase_2/module_2/module_2.md
-      - "Module 3 · Data Validation & Error Handling": phase_2/module_3/module_3.md
-      - "Module 4 · Connecting Databases to ETL": phase_2/module_4/module_4.md
-      - "Module 5 · Workflow Orchestration": phase_2/module_5/module_5.md
+      - "Module 1 · Apache Airflow": phase_2/module_1/index.md
+      - "Module 2 · dbt Transformations": phase_2/module_2/index.md
+      - "Module 3 · Data Validation & Error Handling": phase_2/module_3/index.md
+      - "Module 4 · Connecting Databases to ETL": phase_2/module_4/index.md
+      - "Module 5 · Workflow Orchestration": phase_2/module_5/index.md
 
   - "🤖 Phase 3 — AI / ML Basics":
       - Overview: phase_3/index.md
-      - "Module 1 · ML Concepts & Workflows": phase_3/module_1/module_1.md
-      - "Module 2 · Feature Engineering": phase_3/module_2/module_2.md
-      - "Module 3 · Pre-trained Models & Embeddings": phase_3/module_3/module_3.md
-      - "Module 4 · Scikit-learn": phase_3/module_4/module_4.md
-      - "Module 5 · Integrating ML with Python Apps": phase_3/module_5/module_5.md
+      - "Module 1 · ML Concepts & Workflows": phase_3/module_1/index.md
+      - "Module 2 · Feature Engineering": phase_3/module_2/index.md
+      - "Module 3 · Pre-trained Models & Embeddings": phase_3/module_3/index.md
+      - "Module 4 · Scikit-learn": phase_3/module_4/index.md
+      - "Module 5 · Integrating ML with Python Apps": phase_3/module_5/index.md
 
   - "🔁 Phase 4 — Automation & Workflow Integration":
       - Overview: phase_4/index.md
-      - "Module 1 · Background Tasks with Celery / RQ": phase_4/module_1/module_1.md
-      - "Module 2 · Message Queues (Redis / RabbitMQ)": phase_4/module_2/module_2.md
-      - "Module 3 · Scheduling & Retries": phase_4/module_3/module_3.md
-      - "Module 4 · Logging, Monitoring & Error Handling": phase_4/module_4/module_4.md
-      - "Module 5 · Integrating Multiple Services": phase_4/module_5/module_5.md
+      - "Module 1 · Background Tasks with Celery / RQ": phase_4/module_1/index.md
+      - "Module 2 · Message Queues (Redis / RabbitMQ)": phase_4/module_2/index.md
+      - "Module 3 · Scheduling & Retries": phase_4/module_3/index.md
+      - "Module 4 · Logging, Monitoring & Error Handling": phase_4/module_4/index.md
+      - "Module 5 · Integrating Multiple Services": phase_4/module_5/index.md
 
   - "📊 Phase 5 — Analytics & Monitoring":
       - Overview: phase_5/index.md
-      - "Module 1 · SQL for Analytics": phase_5/module_1/module_1.md
-      - "Module 2 · Building Dashboards": phase_5/module_2/module_2.md
-      - "Module 3 · Tracking Pipeline Metrics": phase_5/module_3/module_3.md
-      - "Module 4 · System Monitoring & Logging": phase_5/module_4/module_4.md
-      - "Module 5 · Visualising Results & Trends": phase_5/module_5/module_5.md
+      - "Module 1 · SQL for Analytics": phase_5/module_1/index.md
+      - "Module 2 · Building Dashboards": phase_5/module_2/index.md
+      - "Module 3 · Tracking Pipeline Metrics": phase_5/module_3/index.md
+      - "Module 4 · System Monitoring & Logging": phase_5/module_4/index.md
+      - "Module 5 · Visualising Results & Trends": phase_5/module_5/index.md
 
   - "🚀 Phase 6 — MLOps & Deployment":
       - Overview: phase_6/index.md
-      - "Module 1 · Docker Compose": phase_6/module_1/module_1.md
-      - "Module 2 · Containerising Applications": phase_6/module_2/module_2.md
-      - "Module 3 · CI/CD Pipelines": phase_6/module_3/module_3.md
-      - "Module 4 · Experiment Tracking with MLflow": phase_6/module_4/module_4.md
-      - "Module 5 · Production Monitoring & Error Handling": phase_6/module_5/module_5.md
+      - "Module 1 · Docker Compose": phase_6/module_1/index.md
+      - "Module 2 · Containerising Applications": phase_6/module_2/index.md
+      - "Module 3 · CI/CD Pipelines": phase_6/module_3/index.md
+      - "Module 4 · Experiment Tracking with MLflow": phase_6/module_4/index.md
+      - "Module 5 · Production Monitoring & Error Handling": phase_6/module_5/index.md
