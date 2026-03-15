@@ -12,6 +12,10 @@
         <link rel="canonical" href="https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_5/module_5/">
       
       
+        <link rel="prev" href="../../module_4/module_4/">
+      
+      
+        <link rel="next" href="../../../phase_1/">
       
       
         
@@ -22,7 +26,7 @@
     
     
       
-        <title>Module 5: PostgreSQL Basics - The AI &amp; MLOps Engineer Roadmap</title>
+        <title>Module 5 · PostgreSQL Basics - The AI &amp; MLOps Engineer Roadmap</title>
       
     
     
@@ -145,7 +149,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Module 5: PostgreSQL Basics
+              Module 5 · PostgreSQL Basics
             
           </span>
         </div>
@@ -348,6 +352,8 @@
       
   
   
+    
+  
   
   
     
@@ -376,13 +382,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
         
           
           <div class="md-nav__link md-nav__container">
@@ -410,7 +414,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -430,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_1/index.md" class="md-nav__link">
+      <a href="../../module_1/module_1/" class="md-nav__link">
         
   
   
@@ -458,7 +462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_2/index.md" class="md-nav__link">
+      <a href="../../module_2/module_2/" class="md-nav__link">
         
   
   
@@ -486,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_3/index.md" class="md-nav__link">
+      <a href="../../module_3/module_3/" class="md-nav__link">
         
   
   
@@ -514,7 +518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_4/index.md" class="md-nav__link">
+      <a href="../../module_4/module_4/" class="md-nav__link">
         
   
   
@@ -539,10 +543,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../index.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module 5 · PostgreSQL Basics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -558,6 +589,563 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#what-you-will-learn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 What You Will Learn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-explained-what-is-a-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 Concept Explained: What Is a Database?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧠 Concept Explained: What Is a Database?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-analogy-database-as-a-smart-spreadsheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Analogy: Database as a Smart Spreadsheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-databases-are-better-than-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Databases Are Better Than Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-relational-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Relational Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works-the-database-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 How It Works: The Database Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Step-by-Step Guide
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Step-by-Step Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-install-postgresql-on-ubuntu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Install PostgreSQL on Ubuntu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-access-postgresql-with-psql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Access PostgreSQL with psql
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-create-your-first-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Create Your First Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-create-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Create Tables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-understand-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Understand Data Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-insert-data-create" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Insert Data (CREATE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-read-data-select" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Read Data (SELECT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-8-filter-data-where" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: Filter Data (WHERE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-sort-and-limit-data-order-by-limit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9: Sort and Limit Data (ORDER BY, LIMIT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-10-update-data-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10: Update Data (UPDATE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-11-delete-data-delete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 11: Delete Data (DELETE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-12-primary-keys-and-foreign-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 12: Primary Keys and Foreign Keys
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-13-join-tables-inner-join" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 13: Join Tables (INNER JOIN)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💻 Code Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💻 Code Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-complete-setup-and-basic-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Complete Setup and Basic Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-complex-queries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Complex Queries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-update-and-delete-with-verification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: Update and Delete with Verification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-mistakes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚠️ Common Mistakes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚠️ Common Mistakes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mistake-1-forgetting-where-in-update-or-delete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mistake 1: Forgetting WHERE in UPDATE or DELETE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mistake-2-not-understanding-foreign-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mistake 2: Not Understanding Foreign Keys
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mistake-3-using-select-in-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mistake 3: Using SELECT * in Production
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mistake-4-not-using-proper-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mistake 4: Not Using Proper Data Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mistake-5-ignoring-null-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mistake 5: Ignoring NULL Values
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Exercises
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-setup-and-basic-crud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Easy: Setup and Basic CRUD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-relationships-and-filtering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Medium: Relationships and Filtering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hard-complex-queries-and-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hard: Complex Queries and Integrity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mini-project-book-manager-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏗️ Mini Project: Book Manager Application
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏗️ Mini Project: Book Manager Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#part-1-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 1: Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-2-create-the-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 2: Create the Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-3-create-the-python-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 3: Create the Python Application
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-4-test-the-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 4: Test the Application
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔗 What's Next
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔗 What's Next">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#you-can-now-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        You Can Now Do
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-topics-for-later" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Topics (For Later)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connection-to-other-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connection to Other Modules
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-command-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔧 SQL Command Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -656,7 +1244,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_1/index.md" class="md-nav__link">
+      <a href="../../../phase_1/module_1/module_1/" class="md-nav__link">
         
   
   
@@ -684,7 +1272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_2/index.md" class="md-nav__link">
+      <a href="../../../phase_1/module_2/module_2/" class="md-nav__link">
         
   
   
@@ -712,7 +1300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_3/index.md" class="md-nav__link">
+      <a href="../../../phase_1/module_3/module_3/" class="md-nav__link">
         
   
   
@@ -740,7 +1328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_4/index.md" class="md-nav__link">
+      <a href="../../../phase_1/module_4/module_4/" class="md-nav__link">
         
   
   
@@ -768,7 +1356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_5/index.md" class="md-nav__link">
+      <a href="../../../phase_1/module_5/module_5/" class="md-nav__link">
         
   
   
@@ -882,7 +1470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_1/index.md" class="md-nav__link">
+      <a href="../../../phase_2/module_1/module_1/" class="md-nav__link">
         
   
   
@@ -910,7 +1498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_2/index.md" class="md-nav__link">
+      <a href="../../../phase_2/module_2/module_2/" class="md-nav__link">
         
   
   
@@ -938,7 +1526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_3/index.md" class="md-nav__link">
+      <a href="../../../phase_2/module_3/module_3/" class="md-nav__link">
         
   
   
@@ -966,7 +1554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_4/index.md" class="md-nav__link">
+      <a href="../../../phase_2/module_4/module_4/" class="md-nav__link">
         
   
   
@@ -994,7 +1582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_5/index.md" class="md-nav__link">
+      <a href="../../../phase_2/module_5/module_5/" class="md-nav__link">
         
   
   
@@ -1108,7 +1696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_1/index.md" class="md-nav__link">
+      <a href="../../../phase_3/module_1/module_1/" class="md-nav__link">
         
   
   
@@ -1136,7 +1724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_2/index.md" class="md-nav__link">
+      <a href="../../../phase_3/module_2/module_2/" class="md-nav__link">
         
   
   
@@ -1164,7 +1752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_3/index.md" class="md-nav__link">
+      <a href="../../../phase_3/module_3/module_3/" class="md-nav__link">
         
   
   
@@ -1192,7 +1780,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_4/index.md" class="md-nav__link">
+      <a href="../../../phase_3/module_4/module_4/" class="md-nav__link">
         
   
   
@@ -1220,7 +1808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_5/index.md" class="md-nav__link">
+      <a href="../../../phase_3/module_5/module_5/" class="md-nav__link">
         
   
   
@@ -1334,7 +1922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_1/index.md" class="md-nav__link">
+      <a href="../../../phase_4/module_1/module_1/" class="md-nav__link">
         
   
   
@@ -1362,7 +1950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_2/index.md" class="md-nav__link">
+      <a href="../../../phase_4/module_2/module_2/" class="md-nav__link">
         
   
   
@@ -1390,7 +1978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_3/index.md" class="md-nav__link">
+      <a href="../../../phase_4/module_3/module_3/" class="md-nav__link">
         
   
   
@@ -1418,7 +2006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_4/index.md" class="md-nav__link">
+      <a href="../../../phase_4/module_4/module_4/" class="md-nav__link">
         
   
   
@@ -1446,7 +2034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_5/index.md" class="md-nav__link">
+      <a href="../../../phase_4/module_5/module_5/" class="md-nav__link">
         
   
   
@@ -1560,7 +2148,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_1/index.md" class="md-nav__link">
+      <a href="../../../phase_5/module_1/module_1/" class="md-nav__link">
         
   
   
@@ -1588,7 +2176,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_2/index.md" class="md-nav__link">
+      <a href="../../../phase_5/module_2/module_2/" class="md-nav__link">
         
   
   
@@ -1616,7 +2204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_3/index.md" class="md-nav__link">
+      <a href="../../../phase_5/module_3/module_3/" class="md-nav__link">
         
   
   
@@ -1644,7 +2232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_4/index.md" class="md-nav__link">
+      <a href="../../../phase_5/module_4/module_4/" class="md-nav__link">
         
   
   
@@ -1672,7 +2260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_5/index.md" class="md-nav__link">
+      <a href="../../../phase_5/module_5/module_5/" class="md-nav__link">
         
   
   
@@ -1786,7 +2374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_6/module_1/index.md" class="md-nav__link">
+      <a href="../../../phase_6/module_1/module_1/" class="md-nav__link">
         
   
   
@@ -1814,7 +2402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_6/module_2/index.md" class="md-nav__link">
+      <a href="../../../phase_6/module_2/module_2/" class="md-nav__link">
         
   
   
@@ -1842,7 +2430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_6/module_3/index.md" class="md-nav__link">
+      <a href="../../../phase_6/module_3/module_3/" class="md-nav__link">
         
   
   
@@ -1870,7 +2458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_6/module_4/index.md" class="md-nav__link">
+      <a href="../../../phase_6/module_4/module_4/" class="md-nav__link">
         
   
   
@@ -1898,7 +2486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_6/module_5/index.md" class="md-nav__link">
+      <a href="../../../phase_6/module_5/module_5/" class="md-nav__link">
         
   
   
@@ -2506,6 +3094,46 @@
 
   
 
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    ⚙️ Phase 0 — Baseline Setup
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
 
               
               <article class="md-content__inner md-typeset">
@@ -4014,6 +4642,44 @@ You have separate sheets:</p>
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../../module_4/module_4/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Module 4 · Linux CLI">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Module 4 · Linux CLI
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../../phase_1/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
