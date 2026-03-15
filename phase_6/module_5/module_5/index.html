@@ -6,13 +6,11 @@
         <meta name="description" content="A complete beginner-to-engineer learning journey through Data, AI, and MLOps — explained step by step, like a mentor.">
       
       
-        <meta name="author" content="Your Name">
+        <meta name="author" content="Ahmed Abdelmoteleb">
       
       
         <link rel="canonical" href="https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_5/module_5/">
       
-      
-        <link rel="prev" href="../../module_4/module_4/">
       
       
       
@@ -24,7 +22,7 @@
     
     
       
-        <title>Module 5 · Production Monitoring &amp; Error Handling - The AI &amp; MLOps Engineer Roadmap</title>
+        <title>Module 5: Production Monitoring &amp; Error Handling - The AI &amp; MLOps Engineer Roadmap</title>
       
     
     
@@ -34,6 +32,31 @@
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M1%207.775V2.75C1%201.784%201.784%201%202.75%201h5.025c.464%200%20.91.184%201.238.513l6.25%206.25a1.75%201.75%200%200%201%200%202.474l-5.026%205.026a1.75%201.75%200%200%201-2.474%200l-6.25-6.25A1.75%201.75%200%200%201%201%207.775m1.5%200c0%20.066.026.13.073.177l6.25%206.25a.25.25%200%200%200%20.354%200l5.025-5.025a.25.25%200%200%200%200-.354l-6.25-6.25a.25.25%200%200%200-.177-.073H2.75a.25.25%200%200%200-.25.25ZM6%205a1%201%200%201%201%200%202%201%201%200%200%201%200-2%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M3.499.75a.75.75%200%200%201%201.5%200v.996C5.9%202.903%206.793%203.65%207.662%204.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873%2010.794-.045%2012.622.26%2014.408.558%2016%201.94%2016%204.25c0%201.278-.954%202.575-2.44%202.734l.146.508.065.22c.203.701.412%201.455.476%202.226.142%201.707-.4%203.03-1.487%203.898C11.714%2014.671%2010.27%2015%208.75%2015h-6a.75.75%200%200%201%200-1.5h1.376a4.5%204.5%200%200%201-.563-1.191%203.84%203.84%200%200%201-.05-2.063%204.65%204.65%200%200%201-2.025-.293.75.75%200%200%201%20.525-1.406c1.357.507%202.376-.006%202.698-.318l.009-.01a.747.747%200%200%201%201.06%200%20.75.75%200%200%201-.012%201.074c-.912.92-.992%201.835-.768%202.586.221.74.745%201.337%201.196%201.621H8.75c1.343%200%202.398-.296%203.074-.836.635-.507%201.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.4%202.4%200%200%201-.507-.441%203.1%203.1%200%200%201-.633-1.248.75.75%200%200%201%201.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738%200%201.25-.615%201.25-1.25%200-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706%201.345-.46.92-.27%201.774.019%203.062l.042.19.01.05c.348.443.666.949.94%201.553a.75.75%200%201%201-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7%205.527c-.814-.68-1.75-1.462-2.692-2.619a3.7%203.7%200%200%200-1.023.88c-.406.495-.663%201.036-.722%201.508.116.122.306.21.591.239.388.038.797-.06%201.032-.19a.75.75%200%200%201%20.728%201.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75%205.677V5.5c0-.984.48-1.94%201.077-2.664.46-.559%201.05-1.055%201.673-1.353z%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M6.457%201.047c.659-1.234%202.427-1.234%203.086%200l6.082%2011.378A1.75%201.75%200%200%201%2014.082%2015H1.918a1.75%201.75%200%200%201-1.543-2.575Zm1.763.707a.25.25%200%200%200-.44%200L1.698%2013.132a.25.25%200%200%200%20.22.368h12.164a.25.25%200%200%200%20.22-.368Zm.53%203.996v2.5a.75.75%200%200%201-1.5%200v-2.5a.75.75%200%200%201%201.5%200M9%2011a1%201%200%201%201-2%200%201%201%200%200%201%202%200%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M9.504.43a1.516%201.516%200%200%201%202.437%201.713L10.415%205.5h2.123c1.57%200%202.346%201.909%201.22%203.004l-7.34%207.142a1.25%201.25%200%200%201-.871.354h-.302a1.25%201.25%200%200%201-1.157-1.723L5.633%2010.5H3.462c-1.57%200-2.346-1.909-1.22-3.004zm1.047%201.074L3.286%208.571A.25.25%200%200%200%203.462%209H6.75a.75.75%200%200%201%20.694%201.034l-1.713%204.188%206.982-6.793A.25.25%200%200%200%2012.538%207H9.25a.75.75%200%200%201-.683-1.06l2.008-4.418.003-.006-.004-.009-.006-.006-.008-.001q-.005%200-.009.004%22/%3E%3C/svg%3E');}</style>
+
 
 
     
@@ -122,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Module 5 · Production Monitoring &amp; Error Handling
+              Module 5: Production Monitoring &amp; Error Handling
             
           </span>
         </div>
@@ -208,6 +231,18 @@
       
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/aabdelmotalib/ai-mlops-roadmap" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    ai-mlops-roadmap
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -231,9 +266,7 @@
 
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="The AI &amp; MLOps Engineer Roadmap" class="md-nav__button md-logo" aria-label="The AI &amp; MLOps Engineer Roadmap" data-md-component="logo">
       
@@ -242,6 +275,18 @@
     </a>
     The AI &amp; MLOps Engineer Roadmap
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/aabdelmotalib/ai-mlops-roadmap" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    ai-mlops-roadmap
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix="">
     
@@ -348,7 +393,7 @@
   <span class="md-ellipsis">
     
   
-    ⚙️ Phase 0: Baseline Setup
+    ⚙️ Phase 0 — Baseline Setup
   
 
     
@@ -370,7 +415,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    ⚙️ Phase 0: Baseline Setup
+    ⚙️ Phase 0 — Baseline Setup
   
 
           </label>
@@ -385,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_0/module_1/module_1/" class="md-nav__link">
+      <a href="../../../phase_0/module_1/index.md" class="md-nav__link">
         
   
   
@@ -413,7 +458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_0/module_2/module_2/" class="md-nav__link">
+      <a href="../../../phase_0/module_2/index.md" class="md-nav__link">
         
   
   
@@ -441,7 +486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_0/module_3/module_3/" class="md-nav__link">
+      <a href="../../../phase_0/module_3/index.md" class="md-nav__link">
         
   
   
@@ -469,7 +514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_0/module_4/module_4/" class="md-nav__link">
+      <a href="../../../phase_0/module_4/index.md" class="md-nav__link">
         
   
   
@@ -497,7 +542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_0/module_5/module_5/" class="md-nav__link">
+      <a href="../../../phase_0/module_5/index.md" class="md-nav__link">
         
   
   
@@ -574,7 +619,7 @@
   <span class="md-ellipsis">
     
   
-    📥 Phase 1: Data Collection &amp; Storage
+    📥 Phase 1 — Data Collection &amp; Storage
   
 
     
@@ -596,7 +641,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    📥 Phase 1: Data Collection &amp; Storage
+    📥 Phase 1 — Data Collection &amp; Storage
   
 
           </label>
@@ -611,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_1/module_1/" class="md-nav__link">
+      <a href="../../../phase_1/module_1/index.md" class="md-nav__link">
         
   
   
@@ -639,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_2/module_2/" class="md-nav__link">
+      <a href="../../../phase_1/module_2/index.md" class="md-nav__link">
         
   
   
@@ -667,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_3/module_3/" class="md-nav__link">
+      <a href="../../../phase_1/module_3/index.md" class="md-nav__link">
         
   
   
@@ -695,7 +740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_4/module_4/" class="md-nav__link">
+      <a href="../../../phase_1/module_4/index.md" class="md-nav__link">
         
   
   
@@ -723,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_1/module_5/module_5/" class="md-nav__link">
+      <a href="../../../phase_1/module_5/index.md" class="md-nav__link">
         
   
   
@@ -800,7 +845,7 @@
   <span class="md-ellipsis">
     
   
-    ⚙️ Phase 2: Data Pipelines &amp; Automation
+    ⚙️ Phase 2 — Data Pipelines &amp; Automation
   
 
     
@@ -822,7 +867,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    ⚙️ Phase 2: Data Pipelines &amp; Automation
+    ⚙️ Phase 2 — Data Pipelines &amp; Automation
   
 
           </label>
@@ -837,7 +882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_1/module_1/" class="md-nav__link">
+      <a href="../../../phase_2/module_1/index.md" class="md-nav__link">
         
   
   
@@ -865,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_2/module_2/" class="md-nav__link">
+      <a href="../../../phase_2/module_2/index.md" class="md-nav__link">
         
   
   
@@ -893,7 +938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_3/module_3/" class="md-nav__link">
+      <a href="../../../phase_2/module_3/index.md" class="md-nav__link">
         
   
   
@@ -921,7 +966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_4/module_4/" class="md-nav__link">
+      <a href="../../../phase_2/module_4/index.md" class="md-nav__link">
         
   
   
@@ -949,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_2/module_5/module_5/" class="md-nav__link">
+      <a href="../../../phase_2/module_5/index.md" class="md-nav__link">
         
   
   
@@ -1026,7 +1071,7 @@
   <span class="md-ellipsis">
     
   
-    🤖 Phase 3: AI / ML Basics
+    🤖 Phase 3 — AI / ML Basics
   
 
     
@@ -1048,7 +1093,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    🤖 Phase 3: AI / ML Basics
+    🤖 Phase 3 — AI / ML Basics
   
 
           </label>
@@ -1063,7 +1108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_1/module_1/" class="md-nav__link">
+      <a href="../../../phase_3/module_1/index.md" class="md-nav__link">
         
   
   
@@ -1091,7 +1136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_2/module_2/" class="md-nav__link">
+      <a href="../../../phase_3/module_2/index.md" class="md-nav__link">
         
   
   
@@ -1119,7 +1164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_3/module_3/" class="md-nav__link">
+      <a href="../../../phase_3/module_3/index.md" class="md-nav__link">
         
   
   
@@ -1147,7 +1192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_4/module_4/" class="md-nav__link">
+      <a href="../../../phase_3/module_4/index.md" class="md-nav__link">
         
   
   
@@ -1175,7 +1220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_3/module_5/module_5/" class="md-nav__link">
+      <a href="../../../phase_3/module_5/index.md" class="md-nav__link">
         
   
   
@@ -1252,7 +1297,7 @@
   <span class="md-ellipsis">
     
   
-    🔁 Phase 4: Automation &amp; Workflow Integration
+    🔁 Phase 4 — Automation &amp; Workflow Integration
   
 
     
@@ -1274,7 +1319,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    🔁 Phase 4: Automation &amp; Workflow Integration
+    🔁 Phase 4 — Automation &amp; Workflow Integration
   
 
           </label>
@@ -1289,7 +1334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_1/module_1/" class="md-nav__link">
+      <a href="../../../phase_4/module_1/index.md" class="md-nav__link">
         
   
   
@@ -1317,7 +1362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_2/module_2/" class="md-nav__link">
+      <a href="../../../phase_4/module_2/index.md" class="md-nav__link">
         
   
   
@@ -1345,7 +1390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_3/module_3/" class="md-nav__link">
+      <a href="../../../phase_4/module_3/index.md" class="md-nav__link">
         
   
   
@@ -1373,7 +1418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_4/module_4/" class="md-nav__link">
+      <a href="../../../phase_4/module_4/index.md" class="md-nav__link">
         
   
   
@@ -1401,7 +1446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_4/module_5/module_5/" class="md-nav__link">
+      <a href="../../../phase_4/module_5/index.md" class="md-nav__link">
         
   
   
@@ -1478,7 +1523,7 @@
   <span class="md-ellipsis">
     
   
-    📊 Phase 5: Analytics &amp; Monitoring
+    📊 Phase 5 — Analytics &amp; Monitoring
   
 
     
@@ -1500,7 +1545,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    📊 Phase 5: Analytics &amp; Monitoring
+    📊 Phase 5 — Analytics &amp; Monitoring
   
 
           </label>
@@ -1515,7 +1560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_1/module_1/" class="md-nav__link">
+      <a href="../../../phase_5/module_1/index.md" class="md-nav__link">
         
   
   
@@ -1543,7 +1588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_2/module_2/" class="md-nav__link">
+      <a href="../../../phase_5/module_2/index.md" class="md-nav__link">
         
   
   
@@ -1571,7 +1616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_3/module_3/" class="md-nav__link">
+      <a href="../../../phase_5/module_3/index.md" class="md-nav__link">
         
   
   
@@ -1599,7 +1644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_4/module_4/" class="md-nav__link">
+      <a href="../../../phase_5/module_4/index.md" class="md-nav__link">
         
   
   
@@ -1627,14 +1672,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../phase_5/module_5/module_5/" class="md-nav__link">
+      <a href="../../../phase_5/module_5/index.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Module 5 · Visualizing Results &amp; Trends
+    Module 5 · Visualising Results &amp; Trends
   
 
     
@@ -1659,8 +1704,6 @@
       
   
   
-    
-  
   
   
     
@@ -1689,11 +1732,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked="">
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9">
         
           
           <div class="md-nav__link md-nav__container">
@@ -1704,7 +1749,7 @@
   <span class="md-ellipsis">
     
   
-    🚀 Phase 6: MLOps &amp; Deployment
+    🚀 Phase 6 — MLOps &amp; Deployment
   
 
     
@@ -1721,12 +1766,12 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
   
-    🚀 Phase 6: MLOps &amp; Deployment
+    🚀 Phase 6 — MLOps &amp; Deployment
   
 
           </label>
@@ -1741,7 +1786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_1/module_1/" class="md-nav__link">
+      <a href="../../module_1/index.md" class="md-nav__link">
         
   
   
@@ -1769,14 +1814,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_2/module_2/" class="md-nav__link">
+      <a href="../../module_2/index.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Module 2 · Containerizing Applications
+    Module 2 · Containerising Applications
   
 
     
@@ -1797,7 +1842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_3/module_3/" class="md-nav__link">
+      <a href="../../module_3/index.md" class="md-nav__link">
         
   
   
@@ -1825,7 +1870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../module_4/module_4/" class="md-nav__link">
+      <a href="../../module_4/index.md" class="md-nav__link">
         
   
   
@@ -1850,37 +1895,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Module 5 · Production Monitoring &amp; Error Handling
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../index.md" class="md-nav__link">
         
   
   
@@ -1896,8 +1914,30 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
-        
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
@@ -2191,25 +2231,9 @@
     </ul>
   
 </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-  </ul>
-</nav>
                   </div>
                 </div>
               </div>
-            
             
           
           
@@ -2222,46 +2246,6 @@
   
 
 
-  <nav class="md-path" aria-label="Navigation">
-    <ol class="md-path__list">
-      
-        
-  
-  
-    <li class="md-path__item">
-      <a href="../../.." class="md-path__link">
-        
-  <span class="md-ellipsis">
-    Home
-  </span>
-
-      </a>
-    </li>
-  
-
-      
-      
-        
-  
-  
-    
-    
-      <li class="md-path__item">
-        <a href="../../" class="md-path__link">
-          
-  <span class="md-ellipsis">
-    🚀 Phase 6: MLOps &amp; Deployment
-  </span>
-
-        </a>
-      </li>
-    
-  
-
-      
-    </ol>
-  </nav>
-
               
               <article class="md-content__inner md-typeset">
                 
@@ -2272,25 +2256,35 @@
       
       
       
-        
-        
       
-      
-        <a href="../../../tags/#tag:advanced" class="md-tag md-tag-icon">Advanced</a>
+        <span class="md-tag">Advanced</span>
       
     
       
       
       
-        
-        
       
-      
-        <a href="../../../tags/#tag:phase-6" class="md-tag md-tag-icon">Phase 6</a>
+        <span class="md-tag">Phase 6</span>
       
     
   </nav>
 
+
+  
+    <a href="https://github.com/aabdelmotalib/ai-mlops-roadmap/edit/main/docs/phase_6/module_5/module_5.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/aabdelmotalib/ai-mlops-roadmap/raw/main/docs/phase_6/module_5/module_5.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"></path></svg>
+    </a>
+  
 
 
 <h1 id="module-5-production-monitoring-error-handling">Module 5: Production Monitoring &amp; Error Handling<a class="headerlink" href="#module-5-production-monitoring-error-handling" title="Permanent link">¶</a></h1>
@@ -3161,8 +3155,26 @@ Extend the <code>retrain_book_price_model</code> Celery task to send a Slack not
 
 
   
+    
+  
   
 
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 15, 2026 03:30:06 UTC">March 15, 2026</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
 
@@ -3189,28 +3201,6 @@ Extend the <code>retrain_book_price_model</code> Celery task to send a Slack not
         <footer class="md-footer">
   
     
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer">
-        
-          
-          <a href="../../module_4/module_4/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Module 4 · Experiment Tracking with MLflow">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Module 4 · Experiment Tracking with MLflow
-              </div>
-            </div>
-          </a>
-        
-        
-      </nav>
-    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -3234,19 +3224,8 @@ Extend the <code>retrain_book_price_model</code> Celery task to send a Slack not
       
       
     
-    <a href="https://github.com/your-username" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+    <a href="https://github.com/aabdelmotalib" target="_blank" rel="noopener" title="github.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"></path></svg>
     </a>
   
 </div>
@@ -3264,7 +3243,7 @@ Extend the <code>retrain_book_price_model</code> Celery task to send a Slack not
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.path", "navigation.top", "navigation.indexes", "navigation.footer", "search.highlight", "search.suggest", "search.share", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "toc.follow", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": {"APIs": "apis", "Airflow": "airflow", "Beginner": "beginner", "CI/CD": "cicd", "Celery": "celery", "Docker": "docker", "Exercise": "exercise", "FastAPI": "fastapi", "Git": "git", "Intermediate": "intermediate", "Linux": "linux", "ML": "ml", "MLOps": "mlops", "MLflow": "mlflow", "Monitoring": "monitoring", "Project": "project", "Python": "python", "Redis": "redis", "SQL": "sql", "Scraping": "scraping", "dbt": "dbt"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "navigation.path", "navigation.top", "navigation.footer", "search.highlight", "search.suggest", "search.share", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "toc.follow", "content.action.edit", "content.action.view"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
