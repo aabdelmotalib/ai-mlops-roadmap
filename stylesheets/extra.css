@@ -1,36 +1,130 @@
-/* ============================================================
-   extra.css — Custom styles for The AI & MLOps Engineer Roadmap
-   ============================================================ */
+/* =============================================================
+   extra.css — The AI & MLOps Engineer Roadmap
+   Improves sidebar design, spacing, and readability
+   ============================================================= */
 
-/* Slightly wider content area */
+/* ── Wider content area ────────────────────────────────────────────────────── */
 .md-grid {
-  max-width: 1400px;
+  max-width: 1440px;
 }
 
-/* Phase overview cards (used in phase index pages) */
-.phase-card {
-  border-left: 4px solid var(--md-primary-fg-color);
-  padding: 1rem 1.25rem;
-  margin-bottom: 1rem;
-  border-radius: 4px;
-  background: var(--md-code-bg-color);
-}
-
-/* Module progress tag */
-.progress-tag {
-  font-size: 0.75rem;
+/* ── Sidebar: make phase section headers stand out ─────────────────────────── */
+.md-nav__title {
   font-weight: 600;
-  padding: 2px 8px;
-  border-radius: 20px;
-  background: var(--md-accent-fg-color);
-  color: white;
 }
 
-/* Inline keyboard key styling enhancement */
+/* Phase section labels in the sidebar — bigger and bolder */
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color) !important;
+  padding-top: 0.6rem;
+  padding-bottom: 0.3rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin-top: 0.4rem;
+}
+
+/* First section — no top border */
+.md-nav--primary .md-nav__item--section:first-child > .md-nav__link {
+  border-top: none;
+  margin-top: 0;
+}
+
+/* Module links inside a phase — slight indent and smaller */
+.md-nav--primary .md-nav__item--section .md-nav__link {
+  font-size: 0.75rem;
+  padding-left: 0.8rem;
+}
+
+/* Active (current) page link in sidebar */
+.md-nav__link--active {
+  font-weight: 600 !important;
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* ── Sidebar width — slightly wider for long module names ──────────────────── */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 16rem;          /* default is 12.1rem — more room for module names */
+  }
+
+  .md-content {
+    margin-left: 16rem;
+  }
+}
+
+/* ── Content area: better typography ──────────────────────────────────────── */
+.md-content__inner {
+  max-width: 860px;        /* comfortable reading width */
+  margin: 0 auto;
+}
+
+/* ── Admonition improvements ───────────────────────────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+/* ── Code blocks: slightly more padding ────────────────────────────────────── */
+.md-typeset pre > code {
+  padding: 1rem 1.2rem;
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+/* ── Tables: cleaner look ───────────────────────────────────────────────────── */
+.md-typeset table:not([class]) {
+  font-size: 0.8rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.5rem 1rem;
+}
+
+/* ── Homepage: hero section feel ───────────────────────────────────────────── */
+.md-typeset h1:first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Progress tag pills ─────────────────────────────────────────────────────── */
+.phase-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 6px;
+}
+
+/* ── Keyboard key styling ───────────────────────────────────────────────────── */
 kbd {
   background: var(--md-code-bg-color);
   border: 1px solid var(--md-default-fg-color--lighter);
   border-radius: 4px;
-  padding: 1px 5px;
-  font-size: 0.85em;
+  padding: 1px 6px;
+  font-size: 0.8em;
+  font-family: var(--md-code-font);
+}
+
+/* ── Footer navigation ──────────────────────────────────────────────────────── */
+.md-footer-nav__link {
+  padding: 1rem 1.5rem;
 }
