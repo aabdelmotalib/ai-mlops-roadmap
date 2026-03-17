@@ -124,9 +124,9 @@ nav:
       - "Module 1 · Python Essentials":
           - Overview: phase_0/module_1/module_1.md
           - "1.1 · Control Flow": phase_0/module_1/control_flow.md
-          - "1.2 · Working with Strings": phase_0/module_1/strings.md
-          - "1.3 · Lists and Loops": phase_0/module_1/lists_loops.md
-          - "1.4 · Debugging & Best Practices": phase_0/module_1/debugging.md
+          - "1.2 · Working with Strings": phase_0/module_1/working_with_strings.md
+          - "1.3 · Lists and Loops": phase_0/module_1/lists_and_loops_deep_dive.md
+          - "1.4 · Debugging & Best Practices": phase_0/module_1/debugging_and_best_practices.md
       - "Module 2 · Git & Version Control": phase_0/module_2/module_2.md
       - "Module 3 · Docker Basics": phase_0/module_3/module_3.md
       - "Module 4 · Linux CLI": phase_0/module_4/module_4.md
