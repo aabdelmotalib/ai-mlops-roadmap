@@ -121,56 +121,61 @@ nav:
 
   - "⚙️ Phase 0 — Baseline Setup":
       - Overview: phase_0/index.md
-      - "Module 1 · Python Essentials": phase_0/module_1/index.md
-      - "Module 2 · Git & Version Control": phase_0/module_2/index.md
-      - "Module 3 · Docker Basics": phase_0/module_3/index.md
-      - "Module 4 · Linux CLI": phase_0/module_4/index.md
-      - "Module 5 · PostgreSQL Basics": phase_0/module_5/index.md
+      - "Module 1 · Python Essentials":
+          - Overview: phase_0/module_1/module_1.md
+          - "1.1 · Control Flow": phase_0/module_1/control_flow.md
+          - "1.2 · Working with Strings": phase_0/module_1/strings.md
+          - "1.3 · Lists and Loops": phase_0/module_1/lists_loops.md
+          - "1.4 · Debugging & Best Practices": phase_0/module_1/debugging.md
+      - "Module 2 · Git & Version Control": phase_0/module_2/module_2.md
+      - "Module 3 · Docker Basics": phase_0/module_3/module_3.md
+      - "Module 4 · Linux CLI": phase_0/module_4/module_4.md
+      - "Module 5 · PostgreSQL Basics": phase_0/module_5/module_5.md
 
   - "📥 Phase 1 — Data Collection & Storage":
       - Overview: phase_1/index.md
-      - "Module 1 · REST APIs in Python": phase_1/module_1/index.md
-      - "Module 2 · Web Scraping": phase_1/module_2/index.md
-      - "Module 3 · Database Schema Design": phase_1/module_3/index.md
-      - "Module 4 · Data Cleaning & Normalization": phase_1/module_4/index.md
-      - "Module 5 · CSV & JSON Files": phase_1/module_5/index.md
+      - "Module 1 · REST APIs in Python": phase_1/module_1/module_1.md
+      - "Module 2 · Web Scraping": phase_1/module_2/module_2.md
+      - "Module 3 · Database Schema Design": phase_1/module_3/module_3.md
+      - "Module 4 · Data Cleaning & Normalization": phase_1/module_4/module_4.md
+      - "Module 5 · CSV & JSON Files": phase_1/module_5/module_5.md
 
   - "⚙️ Phase 2 — Data Pipelines & Automation":
       - Overview: phase_2/index.md
-      - "Module 1 · Apache Airflow": phase_2/module_1/index.md
-      - "Module 2 · dbt Transformations": phase_2/module_2/index.md
-      - "Module 3 · Data Validation & Error Handling": phase_2/module_3/index.md
-      - "Module 4 · Connecting Databases to ETL": phase_2/module_4/index.md
-      - "Module 5 · Workflow Orchestration": phase_2/module_5/index.md
+      - "Module 1 · Apache Airflow": phase_2/module_1/module_1.md
+      - "Module 2 · dbt Transformations": phase_2/module_2/module_2.md
+      - "Module 3 · Data Validation & Error Handling": phase_2/module_3/module_3.md
+      - "Module 4 · Connecting Databases to ETL": phase_2/module_4/module_4.md
+      - "Module 5 · Workflow Orchestration": phase_2/module_5/module_5.md
 
   - "🤖 Phase 3 — AI / ML Basics":
       - Overview: phase_3/index.md
-      - "Module 1 · ML Concepts & Workflows": phase_3/module_1/index.md
-      - "Module 2 · Feature Engineering": phase_3/module_2/index.md
-      - "Module 3 · Pre-trained Models & Embeddings": phase_3/module_3/index.md
-      - "Module 4 · Scikit-learn": phase_3/module_4/index.md
-      - "Module 5 · Integrating ML with Python Apps": phase_3/module_5/index.md
+      - "Module 1 · ML Concepts & Workflows": phase_3/module_1/module_1.md
+      - "Module 2 · Feature Engineering": phase_3/module_2/module_2.md
+      - "Module 3 · Pre-trained Models & Embeddings": phase_3/module_3/module_3.md
+      - "Module 4 · Scikit-learn": phase_3/module_4/module_4.md
+      - "Module 5 · Integrating ML with Python Apps": phase_3/module_5/module_5.md
 
   - "🔁 Phase 4 — Automation & Workflow Integration":
       - Overview: phase_4/index.md
-      - "Module 1 · Background Tasks with Celery / RQ": phase_4/module_1/index.md
-      - "Module 2 · Message Queues (Redis / RabbitMQ)": phase_4/module_2/index.md
-      - "Module 3 · Scheduling & Retries": phase_4/module_3/index.md
-      - "Module 4 · Logging, Monitoring & Error Handling": phase_4/module_4/index.md
-      - "Module 5 · Integrating Multiple Services": phase_4/module_5/index.md
+      - "Module 1 · Background Tasks with Celery / RQ": phase_4/module_1/module_1.md
+      - "Module 2 · Message Queues (Redis / RabbitMQ)": phase_4/module_2/module_2.md
+      - "Module 3 · Scheduling & Retries": phase_4/module_3/module_3.md
+      - "Module 4 · Logging, Monitoring & Error Handling": phase_4/module_4/module_4.md
+      - "Module 5 · Integrating Multiple Services": phase_4/module_5/module_5.md
 
   - "📊 Phase 5 — Analytics & Monitoring":
       - Overview: phase_5/index.md
-      - "Module 1 · SQL for Analytics": phase_5/module_1/index.md
-      - "Module 2 · Building Dashboards": phase_5/module_2/index.md
-      - "Module 3 · Tracking Pipeline Metrics": phase_5/module_3/index.md
-      - "Module 4 · System Monitoring & Logging": phase_5/module_4/index.md
-      - "Module 5 · Visualising Results & Trends": phase_5/module_5/index.md
+      - "Module 1 · SQL for Analytics": phase_5/module_1/module_1.md
+      - "Module 2 · Building Dashboards": phase_5/module_2/module_2.md
+      - "Module 3 · Tracking Pipeline Metrics": phase_5/module_3/module_3.md
+      - "Module 4 · System Monitoring & Logging": phase_5/module_4/module_4.md
+      - "Module 5 · Visualising Results & Trends": phase_5/module_5/module_5.md
 
   - "🚀 Phase 6 — MLOps & Deployment":
       - Overview: phase_6/index.md
-      - "Module 1 · Docker Compose": phase_6/module_1/index.md
-      - "Module 2 · Containerising Applications": phase_6/module_2/index.md
-      - "Module 3 · CI/CD Pipelines": phase_6/module_3/index.md
-      - "Module 4 · Experiment Tracking with MLflow": phase_6/module_4/index.md
-      - "Module 5 · Production Monitoring & Error Handling": phase_6/module_5/index.md
+      - "Module 1 · Docker Compose": phase_6/module_1/module_1.md
+      - "Module 2 · Containerising Applications": phase_6/module_2/module_2.md
+      - "Module 3 · CI/CD Pipelines": phase_6/module_3/module_3.md
+      - "Module 4 · Experiment Tracking with MLflow": phase_6/module_4/module_4.md
+      - "Module 5 · Production Monitoring & Error Handling": phase_6/module_5/module_5.md

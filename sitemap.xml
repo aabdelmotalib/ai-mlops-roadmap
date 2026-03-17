@@ -2,878 +2,894 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/tags/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/control_flow/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/debugging_and_best_practices/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/lists_and_loops_deep_dive/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/module_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/working_with_strings/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_1/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_2/module_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_2/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_2/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_2/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_2/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_2/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_3/module_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_3/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_3/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_3/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_3/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_3/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_4/module_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_4/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_4/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_4/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_4/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_4/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_5/module_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_5/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_5/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_5/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_5/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_0/module_5/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_1/module_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_1/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_1/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_1/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_1/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_1/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_2/module_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_2/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_2/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_2/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_2/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_2/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_3/module_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_3/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_3/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_3/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_3/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_3/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_4/module_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_4/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_4/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_4/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_4/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_4/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_5/module_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_5/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_5/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_5/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_5/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_1/module_5/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_1/module_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_1/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_1/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_1/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_1/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_1/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_2/module_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_2/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_2/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_2/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_2/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_2/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_3/module_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_3/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_3/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_3/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_3/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_3/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_4/module_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_4/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_4/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_4/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_4/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_4/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_5/module_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_5/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_5/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_5/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_5/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_2/module_5/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_1/module_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_1/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_1/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_1/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_1/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_1/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_2/module_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_2/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_2/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_2/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_2/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_2/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_3/module_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_3/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_3/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_3/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_3/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_3/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_4/module_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_4/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_4/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_4/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_4/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_4/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_5/module_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_5/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_5/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_5/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_5/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_3/module_5/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_1/module_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_1/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_1/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_1/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_1/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_1/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_2/module_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_2/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_2/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_2/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_2/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_2/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_3/module_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_3/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_3/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_3/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_3/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_3/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_4/module_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_4/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_4/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_4/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_4/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_4/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_5/module_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_5/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_5/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_5/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_5/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_4/module_5/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_1/module_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_1/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_1/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_1/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_1/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_1/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_2/module_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_2/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_2/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_2/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_2/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_2/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_3/module_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_3/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_3/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_3/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_3/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_3/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_4/module_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_4/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_4/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_4/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_4/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_4/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_5/module_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_5/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_5/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_5/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_5/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_5/module_5/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_1/module_1/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_1/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_1/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_1/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_1/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_1/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_2/module_2/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_2/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_2/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_2/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_2/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_2/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_3/module_3/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_3/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_3/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_3/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_3/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_3/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_4/module_4/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_4/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_4/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_4/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_4/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_4/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_5/module_5/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_5/code_snippets/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_5/diagrams/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_5/exercises/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_5/mini_projects/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://aabdelmotalib.github.io/ai-mlops-roadmap/phase_6/module_5/practice/</loc>
-         <lastmod>2026-03-15</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
 </urlset>
