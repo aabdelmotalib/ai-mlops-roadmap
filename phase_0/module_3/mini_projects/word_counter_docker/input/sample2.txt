@@ -1,0 +1,4 @@
+Docker containers are lightweight and portable.
+They package your application and all its dependencies.
+You can run the same container anywhere.
+Docker solves the "works on my machine" problem.

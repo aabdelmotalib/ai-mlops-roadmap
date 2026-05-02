@@ -1,0 +1,4 @@
+TODO: Fix the login bug
+The database connection is slow
+TODO: Add error handling
+Everything else is fine

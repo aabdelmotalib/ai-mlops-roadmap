@@ -1,0 +1,9 @@
+TEMPERATURE ANALYTICS REPORT
+    =============================
+    Total valid readings: 7
+    Average temperature: 25.7°C
+    Readings above average: 3
+    Readings below freezing: 0
+    Min temperature: 19.5°C
+    Max temperature: 33.2°C
+    

@@ -1,0 +1,2 @@
+# No external dependencies for this project
+# But we include this file as a best practice

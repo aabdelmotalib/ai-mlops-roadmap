@@ -1,0 +1,4 @@
+Python is a powerful programming language.
+It is used for data analysis, web development, and artificial intelligence.
+Python's simplicity makes it perfect for beginners.
+With Python, you can build amazing things!
