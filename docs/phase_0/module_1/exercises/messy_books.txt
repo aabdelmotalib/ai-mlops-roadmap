@@ -1,0 +1,7 @@
+  The Hobbit  |  J.R.R. TOLKIEN  |  £15.99
+  1984|GEORGE ORWELL|£14.50
+ Dune | Frank HERBERT  |  £16.75
+  Harry Potter  |  JOANNE ROWLING  |  £12.99
+  To Kill a MockingBird  |  HARPER LEE|£13.75
+  the caThe Catch-22|JOSEPH HELLER|£18.50
+  Foundation  |  ISAAC ASIMOV  |  invalid_price

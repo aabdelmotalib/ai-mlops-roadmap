@@ -1,0 +1,3 @@
+STEP1: hello world
+STEP1: docker is powerful
+STEP1: multi container pipeline

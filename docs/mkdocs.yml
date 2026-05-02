@@ -26,31 +26,22 @@ theme:
         name: Switch to light mode
 
   features:
-    # ── LEFT SIDEBAR navigation (NO tabs) ──────────────────────────────────
-    - navigation.sections # group phases as collapsible sections
-    - navigation.expand # expand sections by default
-    - navigation.indexes # allow phase index pages
-    - navigation.path # breadcrumbs at top of page
-    - navigation.top # back-to-top button
-    - navigation.footer # previous / next links at bottom
-
-    # ── Search ─────────────────────────────────────────────────────────────
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
     - search.highlight
     - search.suggest
     - search.share
-
-    # ── Content ────────────────────────────────────────────────────────────
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
     - content.tooltips
-
-    # ── Table of contents ──────────────────────────────────────────────────
     - toc.follow
-    # NOTE: toc.integrate is intentionally removed
-    # With toc.integrate the TOC merges into the sidebar which makes it
-    # crowded when sections are expanded. Keeping TOC on the right side
-    # gives a clean 3-column layout: sidebar | content | TOC
+    - content.action.edit
+    - content.action.view
 
   font:
     text: Inter
@@ -58,22 +49,25 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
-    # Custom icons per section shown in the sidebar
     admonition:
       note: octicons/tag-16
       tip: octicons/squirrel-16
       warning: octicons/alert-16
       danger: octicons/zap-16
 
-# ─── Plugins ────────────────────────────────────────────────────────────────
+repo_url: https://github.com/aabdelmotalib/ai-mlops-roadmap
+repo_name: ai-mlops-roadmap
+edit_uri: edit/main/docs/
+
 plugins:
   - search:
       lang: en
       separator: '[\s\-\.]+'
   - tags: {}
   - glightbox
+  - git-revision-date-localized:
+      type: date
 
-# ─── Markdown Extensions ─────────────────────────────────────────────────────
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -108,7 +102,6 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-# ─── Extra ──────────────────────────────────────────────────────────────────
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -121,15 +114,19 @@ extra_javascript:
   - javascripts/extra.js
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
-# ─── Navigation ──────────────────────────────────────────────────────────────
-# NO navigation.tabs → everything lives in the LEFT sidebar
+# Navigation
 nav:
   - Home: index.md
   - Tags: tags.md
 
   - "⚙️ Phase 0 — Baseline Setup":
       - Overview: phase_0/index.md
-      - "Module 1 · Python Essentials": phase_0/module_1/module_1.md
+      - "Module 1 · Python Essentials":
+          - "📖 Overview": phase_0/module_1/module_1.md
+          - "1.1 · Control Flow": phase_0/module_1/control_flow.md
+          - "1.2 · Working with Strings": phase_0/module_1/working_with_strings.md
+          - "1.3 · Lists and Loops": phase_0/module_1/lists_and_loops_deep_dive.md
+          - "1.4 · Debugging & Best Practices": phase_0/module_1/debugging_and_best_practices.md
       - "Module 2 · Git & Version Control": phase_0/module_2/module_2.md
       - "Module 3 · Docker Basics": phase_0/module_3/module_3.md
       - "Module 4 · Linux CLI": phase_0/module_4/module_4.md

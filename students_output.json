@@ -1,0 +1,81 @@
+{
+  "all_students": [
+    {
+      "name": "Grace",
+      "grade": 96,
+      "subject": "Math"
+    },
+    {
+      "name": "Alice",
+      "grade": 95,
+      "subject": "Math"
+    },
+    {
+      "name": "Iris",
+      "grade": 93,
+      "subject": "Chemistry"
+    },
+    {
+      "name": "Charlie",
+      "grade": 92,
+      "subject": "Math"
+    },
+    {
+      "name": "Eve",
+      "grade": 91,
+      "subject": "Physics"
+    },
+    {
+      "name": "Henry",
+      "grade": 89,
+      "subject": "Physics"
+    },
+    {
+      "name": "Diana",
+      "grade": 88,
+      "subject": "Chemistry"
+    },
+    {
+      "name": "Bob",
+      "grade": 87,
+      "subject": "Physics"
+    },
+    {
+      "name": "Frank",
+      "grade": 85,
+      "subject": "Chemistry"
+    },
+    {
+      "name": "Jack",
+      "grade": 84,
+      "subject": "Math"
+    }
+  ],
+  "top_per_subject": {
+    "Math": {
+      "name": "Grace",
+      "grade": 96,
+      "subject": "Math"
+    },
+    "Physics": {
+      "name": "Eve",
+      "grade": 91,
+      "subject": "Physics"
+    },
+    "Chemistry": {
+      "name": "Iris",
+      "grade": 93,
+      "subject": "Chemistry"
+    }
+  },
+  "summary": {
+    "total_students": 10,
+    "subjects": [
+      "Math",
+      "Physics",
+      "Chemistry"
+    ],
+    "highest_grade": 96,
+    "lowest_grade": 84
+  }
+}
